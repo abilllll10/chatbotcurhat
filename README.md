@@ -62,7 +62,7 @@ Make sure you are still in the project directory and have your virtual environme
 Start the chatbot by running the following command:
 
 ```
-python chatbot.py
+python app.py
 ```
 You'll see a welcome message from the chatbot. You can type your questions, engage in conversations, or simply say "bye" to exit.
 
