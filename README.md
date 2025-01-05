@@ -1,6 +1,6 @@
-# Chatbot Project
+# Chatbot CurhatDong 
 
-Welcome to the Chatbot Project! 🤖
+Welcome to the Chatbot CurhatDong! 
 
 ## Motivation
 
