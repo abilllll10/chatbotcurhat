@@ -32,7 +32,7 @@ def LemNormalize(text):
 
 # Keyword Matching
 GREETING_INPUTS = ("halo")
-GREETING_RESPONSES = ["hi", "hey", "hi there", "hello", "I am glad! You are talking to me"]
+GREETING_RESPONSES = ["hi", "hey", "hadir!", "hello", "curhat dong disini!"]
 
 def greeting(sentence):
     """if user's input is a greeting, return a greeting response"""
@@ -43,8 +43,28 @@ def greeting(sentence):
 ADDITIONAL_RESPONSES = {
     "aku lagi sedih nih": "sedih kenapa? sini cerita",
     "aku disakiti pacarku": "emangnya pacarmu ngapain kamu?",
-    "aku di selingkuhin sama dia": "wahh sudah jangan bersedih lagi kamu pasti bisa dapetin cowo yang lebih baik dari dia",
-    
+    "saya ragu memilih jurusan kuliah": "Pertimbangkan minat dan bakat",
+    "aku harus gimana": "kamu harus melakukan hal-hal yang kamu suka pasti nanti kamu akan lupa dengannya",
+    "aku mau cerita": "silahkan, mau cerita apa?",
+    "aku mau curhat": "silahkan, mau curhat apa?",
+    "saya merasa tidak berguna": "Anda berguna! Fokus pada kebaikan Anda",
+    "bagaimana cara menghadapi kesedihan?": "Terima perasaan, ceritakanlah, dan cari dukungan",
+    "apa yang membuat hidup berarti?": "Menemukan tujuan dan menjalani hidup dengan penuh makna",
+    "saya sedang merasa marah": "Ambil napas dalam-dalam, tunggu sejenak sebelum bertindak",
+    "kenapa ya temanku akhir-akhir ini jadi cuek?": "Mungkin dia lagi ada masalah sendiri. Coba tanya, siapa tahu dia butuh dukunganmu",
+    "gimana caranya menghargai diri sendiri?": "Mulai dari hal kecil, seperti memuji dirimu atas hal baik yang sudah kamu lakukan",
+    "apa yang bikin hidup ini terasa berat?": "Kadang ekspektasi kita sendiri yang bikin berat. Coba kurangi tekanan ke diri sendiri",
+    "apa yang membuat hidup indah?": "Kebahagiaan, cinta, dan hubungan yang baik",
+    "bagaimana cara mengatasi kecemasan?": "Coba teknik pernapasan atau konsultasi profesional",
+    "saya merasa kesepian": "Hubungi teman atau keluarga, atau coba hobi baru",
+    "kenapa ya aku sering overthinking tentang masa depan?": "Mungkin kamu terlalu fokus ke hal yang belum terjadi. Coba lebih menikmati momen sekarang",
+    "kenapa ya aku masih kepikiran kesalahan yang udah lama terjadi?": "Itu normal. Tapi, coba lihat kesalahan itu sebagai pelajaran, bukan beban",
+    "aku sering nggak cocok sama pasangan, gimana dong?": "Mungkin kamu butuh komunikasi lebih terbuka. Coba deh obrolin perasaanmu",
+    "kenapa ya aku susah percaya sama orang baru?": "Mungkin kamu pernah dikecewakan. Pelan-pelan aja, kepercayaan itu dibangun seiring waktu",
+    "gimana caranya tahu kalau dia beneran tulus sama aku?": "Lihat dari tindakannya, bukan hanya kata-katanya. Tindakan biasanya nggak bohong",
+    "gimana cara menghadapi orang yang toxic?": "Jaga jarak dan fokus pada kesehatan mentalmu. Nggak apa-apa untuk memilih lingkungan yang lebih baik",
+    "apa aku harus minta maaf meskipun aku nggak salah?": "Kadang meminta maaf bisa meredakan konflik, tapi pastikan itu nggak mengorbankan harga dirimu",
+    "kenapa ya aku merasa hidupku nggak berubah dari dulu?": "Mungkin kamu perlu mencoba hal baru atau keluar dari zona nyamanmu",
 }
 
 def response(user_response):
