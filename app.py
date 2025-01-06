@@ -22,11 +22,11 @@ def get_bot_response():
         
         # Check if it's a goodbye message
         if user_message == 'selamat tinggal':
-            return jsonify({'response': "selamat tinggal! kembali lagi jika kamu memiliki pertanyaan tentang hipertensi."})
+            return jsonify({'response': "Selamat tinggal! Aku selalu di sini jika kamu butuh teman."})
         
         # Check if it's a thank you message
         if user_message in ('terima kasih'):
-            return jsonify({'response': "sama-sama"})
+            return jsonify({'response': "Sama-sama! Aku senang bisa membantu."})
         
         # Check for greetings
         greeting_response = greeting(user_message)
